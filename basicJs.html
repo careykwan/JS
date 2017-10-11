@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<p id="myId">hello there</p>
+
+	<script>
+
+	var today = new Date();
+	var hourNow = today.getHours();
+	var greeting;
+
+	console.log('this is var today ' + today);
+	console.log('this is var hourNow' + hourNow);
+	console.log(greeting);
+
+	console.log(hourNow)
+	if(hourNow >18) {
+		//if line above true this happens
+		//if line above is false else happens below
+		greeting = 'Good evening';
+	} else {
+		greeting = 'Good morning';
+	}
+
+	console.log(greeting)
+
+	//These represent different heights
+	// var thisA, thisB, thisC;
+
+	// This represent jared's height
+	// var jaredsHeight = 186;
+
+	// var target = document.getElementById("myId");
+
+	// thisA = jaredsHeight + 200;
+
+	// txt1 = "John";
+	// txt2 = "Doe";
+	// thisB = txt1 + " " + txt2;
+
+	// text3 = 10;
+	// text4 = 15;
+	// thisC = text3 * text4;
+
+
+	// This is a method called alert
+	// alert(thisC);
+	// This is method called console, used as a debugging tool
+	// console.log(target);
+	
+	// console.dir(target);
+
+	// target.style.display = 'none';
+	</script>
+</body>
+</html>
